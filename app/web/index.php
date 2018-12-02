@@ -1,8 +1,8 @@
 <?php
 
-#判断PHP版本
+# 判断PHP版本
 
-#初始化时区
+# 初始化时区
 define('APP_ROOT',dirname(__DIR__));
 define('SITE_URL','http://'.$_SERVER['HTTP_HOST'].substr($_SERVER['PHP_SELF'],0,-10));
 date_default_timezone_set('Asia/Shanghai');
